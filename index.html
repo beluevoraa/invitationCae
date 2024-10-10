@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación al cumple de Cae</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Sección con imagen de fondo (cae banner) -->
+    <div class="section" id="section1">
+        <img src="cae banner.png" alt="bg" class="full-image">
+    </div>
+
+    <!-- Sección cuenta regresiva -->
+    <div class="section" id="section2">
+        <div class="container d-flex flex-column justify-content-center align-items-center min-vh-100">
+            <div class="countdown">
+                <h1 class="mb-4">Faltan para mi cumple:</h1>
+                <p class="span-countdown">¡Agendá la fecha!</p>
+                <div class="row">
+                    <div class="col-6 col-md countdown-item">
+                        <span id="days">0</span>
+                        <small>Días</small>
+                    </div>
+                    <div class="col-6 col-md countdown-item">
+                        <span id="hours">0</span>
+                        <small>Horas</small>
+                    </div>
+                    <div class="col-6 col-md countdown-item">
+                        <span id="minutes">0</span>
+                        <small>Minutos</small>
+                    </div>
+                    <div class="col-6 col-md countdown-item">
+                        <span id="seconds">0</span>
+                        <small>Segundos</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="caetano.png" alt="Banner" class="banner-image">
+    </div>
+
+
+    <!-- Sección ubicación -->
+    <div class="section" id="section-location">
+        <div class="container d-flex flex-column justify-content-center align-items-center min-vh-100 text-center">
+            <h1 class="mb-4">Ubicación</h1>
+            <p>Centro de retirados militares, San Ramón, Canelones</p>
+            <img src="farm.png" alt="location" class="img-fluid mb-4 location-image">
+            <a href="https://maps.app.goo.gl/x4SWJ4iuxW1wMNmbA" target="_blank" class="btn">Ver en google maps</a>
+        </div>
+    </div>
+
+    <div class="section" id="section-more-info">
+        <img src="bebe.jpg" alt="cae rie" class="rounded-image">
+
+        <h2>¿Querés conocerme más?</h2>
+        <p>Hacé clic en el siguiente enlace para ver mi añito en 12 fotos.</p>
+        <a href="gallery.html" class="btn btn-primary">Clickeame</a>
+    </div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
