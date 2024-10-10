@@ -15,6 +15,7 @@ const images = [
 ];
 
 
+
 const gallery = document.getElementById('gallery');
 let currentIndex = 0; // Índice de la imagen actual
 
