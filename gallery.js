@@ -1,18 +1,19 @@
 // Array de imágenes de la galería
 const images = [
-    '../../gallery img/1.jpg',
-    '../gallery img/2.jpg',
-    '../gallery img/3.jpg',
-    '../gallery img/6.jpg',
-    '../gallery img/7.jpg',
-    '../gallery img/8.png',
-    '../gallery img/9.png',
-    '../gallery img/11.png',
-    '../gallery img/12.png',
-    '../gallery img/13.jpg',
-    '../gallery img/caerie.jpg',
-    '../gallery img/15.jpg',
+    'gallery img/1.jpg',
+    'gallery img/2.jpg',
+    'gallery img/3.jpg',
+    'gallery img/6.jpg',
+    'gallery img/7.jpg',
+    'gallery img/8.png',
+    'gallery img/9.png',
+    'gallery img/11.png',
+    'gallery img/12.png',
+    'gallery img/13.jpg',
+    'gallery img/caerie.jpg',
+    'gallery img/15.jpg',
 ];
+
 
 const gallery = document.getElementById('gallery');
 let currentIndex = 0; // Índice de la imagen actual
