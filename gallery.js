@@ -1,17 +1,17 @@
 // Array de imágenes de la galería
 const images = [
-    'gallery img/1.jpg',
-    'gallery img/2.jpg',
-    'gallery img/3.jpg',
-    'gallery img/6.jpg',
-    'gallery img/7.jpg',
-    'gallery img/8.png',
-    'gallery img/9.png',
-    'gallery img/11.png',
-    'gallery img/12.png',
-    'gallery img/13.jpg',
-    'gallery img/caerie.jpg',
-    'gallery img/15.jpg',
+    'img/1.jpg',
+    'img/2.jpg',
+    'img/3.jpg',
+    'img/6.jpg',
+    'img/7.jpg',
+    'img/8.png',
+    'img/9.png',
+    'img/11.png',
+    'img/12.png',
+    'img/13.jpg',
+    'img/caerie.jpg',
+    'img/15.jpg',
 ];
 
 
