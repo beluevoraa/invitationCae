@@ -1,6 +1,6 @@
 // Array de imágenes de la galería
 const images = [
-    '../gallery img/1.jpg',
+    '/../gallery img/1.jpg',
     '../gallery img/2.jpg',
     '../gallery img/3.jpg',
     '../gallery img/6.jpg',
