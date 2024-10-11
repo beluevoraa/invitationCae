@@ -1,16 +1,16 @@
 // Array de imágenes de la galería
 const images = [
-    'img/1.JPG',
-    'img/2.JPG',
-    'img/3.JPG',
-    'img/6.jpg',
-    'img/7.JPG',
-    'img/8.png',
-    'img/9.png',
-    'img/11.png',
-    'img/12.png',
-    'img/13.JPG',
-    'img/caerie.jpg',
+    'img/1.jpeg',
+    'img/2.jpeg',
+    'img/3.jpeg',
+    'img/4.jpeg',
+    'img/5.jpeg',
+    'img/6.jpeg',
+    'img/7.jpeg',
+    'img/8.jpeg',
+    'img/9.jpeg',
+    'img/10.jpeg',
+    'img/11.jpeg',
     'img/15.JPG',
 ];
 
