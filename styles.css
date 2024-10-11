@@ -79,6 +79,13 @@ body, html {
     gap: 2rem;
 }
 
+.countdown h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--verde);
+   
+}
+
 .countdown-item span {
     font-size: 3rem;
     font-weight: bold;
