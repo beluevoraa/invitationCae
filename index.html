@@ -80,6 +80,46 @@
         <img src="banner.png" alt="Banner" class="banner-image">
     </div>
 
+    <div id="overlay"></div> <!-- Este es el div para el fondo oscurecido -->
+
+
+    <audio id="audio" src="yellow.mp3" preload="auto"></audio>
+    
+    <div id="modal">
+        <h4>¡Bienvenido a la invitación de Caetano!</h4>
+        <p>Esta invitación viene acompañada de música.
+        </p>
+        <p>¿Querés escuchar?</p>
+        <div class="button-container">
+            <button id="yes-button">Sí</button>
+            <button id="no-button">No</button>
+        </div>
+        <p class="p-modal">Siempre puedes pausar la música</p>
+    </div>
+    
+
+    <div id="volume-controls" style="display:none;">
+        <button id="volume-on" class="volume-button">
+            <!-- Icono de volumen -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-volume" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#435a7a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M15 8a5 5 0 0 1 0 8" />
+                <path d="M17.7 5a9 9 0 0 1 0 14" />
+                <path d="M6 15h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l3.5 -4.5a.8 .8 0 0 1 1.5 .5v14a.8 .8 0 0 1 -1.5 .5l-3.5 -4.5" />
+            </svg>
+        </button>
+        <button id="volume-off" class="volume-button" style="display:none;">
+            <!-- Icono de volumen apagado -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-volume-off" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#435a7a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M15 8a5 5 0 0 1 1.912 4.934m-1.377 2.602a5 5 0 0 1 -.535 .464" />
+                <path d="M17.7 5a9 9 0 0 1 2.362 11.086m-1.676 2.299a9 9 0 0 1 -.686 .615" />
+                <path d="M9.069 5.054l.431 -.554a.8 .8 0 0 1 1.5 .5v2m0 4v8a.8 .8 0 0 1 -1.5 .5l-3.5 -4.5h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l1.294 -1.664" />
+                <path d="M3 3l18 18" />
+            </svg>
+        </button>
+    </div>
+
     <footer class="footer" style="margin-top: 40px;">
         <div class="footer-container">
             <p>Bendita invitaciones 💌</p>

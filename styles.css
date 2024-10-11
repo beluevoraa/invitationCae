@@ -401,3 +401,163 @@ body, html {
 .banner, .footer {
     margin: 0 !important;
 }
+
+#volume-controls {
+    display: flex;
+    justify-content: flex-end; /* Alinea el botón a la derecha */
+    align-items: center;
+    position: fixed; /* Mantiene el botón en su lugar */
+    bottom: 20px; /* Espacio desde el fondo de la pantalla */
+    right: 20px; /* Espacio desde el lado derecho */
+    z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+    transition: bottom 0.3s ease-in-out; /* Transición suave para el desplazamiento */
+}
+
+.volume-button {
+    background-color: rgba(255, 255, 255, 0.9); /* Color de fondo del botón */
+    border: none;
+    border-radius: 50%; /* Hace que el fondo sea circular */
+    width: 50px; /* Ancho fijo para el botón */
+    height: 50px; /* Alto fijo para el botón */
+    display: flex; /* Para centrar el icono dentro del botón */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin-left: 10px; /* Espaciado entre botones */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+}
+
+.volume-button:hover {
+    background-color: rgba(255, 255, 255, 1); /* Cambia el fondo al pasar el mouse */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
+
+
+/* Efecto de hover en el ícono */
+.volume-button:hover svg {
+    fill: #627c7a; /* Cambia el color del icono al pasar el mouse */
+}
+
+
+
+#volume-controls {
+    position: fixed;
+    bottom: 20px; /* Mantenerlo en la parte inferior */
+    right: 20px; /* Mantenerlo en la derecha */
+    display: flex;
+    flex-direction: column;
+}
+
+.volume-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.volume-button svg {
+    width: 40px;
+    height: 40px;
+}
+
+/* Estilo para el modal */
+#modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    padding: 20px; /* Espaciado interno */
+    z-index: 1000; /* Para asegurarse de que esté encima de otros elementos */
+    text-align: center; /* Centra el texto */
+    display: none; /* Oculto inicialmente */
+    animation: fadeIn 0.3s; /* Animación al aparecer */
+}
+
+/* Fondo oscuro del overlay */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo semi-transparente */
+    z-index: 999; /* Detrás del modal */
+    display: none; /* Oculto inicialmente */
+}
+
+/* Animación de aparición */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Estilo del texto dentro del modal */
+#modal p {
+    font-size: 1.2em; /* Tamaño de texto */
+    color: var(--olive); /* Color del texto */
+    margin-bottom: 20px; /* Espacio entre el texto y los botones */
+    text-align: center; /* Centrar texto */
+    font-family: poppins;
+}
+#modal h4 {
+    font-size: 1.2em; /* Tamaño de texto */
+    color: var(--red); /* Color del texto */
+    margin-bottom: 20px; /* Espacio entre el texto y los botones */
+    text-align: center; /* Centrar texto */
+    font-family: poppins;
+}
+
+
+#modal button {
+    margin: 5px; /* Espaciado entre los botones */
+    padding: 10px 20px; /* Espaciado interno de los botones */
+    background-color: var(--pastel); /* Color de fondo de los botones */
+    color: var(--red); /* Color del texto */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 1em; /* Tamaño de fuente de los botones */
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones para efectos */
+    font-family: 'Poppins', sans-serif; /* Tipo de fuente */
+    text-transform: uppercase; /* Transformar texto a mayúsculas */
+    width: 80%; /* Ancho de los botones */
+    max-width: 200px; /* Ancho máximo de los botones */
+}
+
+/* Efecto hover para los botones */
+#modal button:hover {
+    background-color: var(--olive); /* Color de fondo al pasar el mouse */
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+/* Diseño responsivo */
+@media (max-width: 600px) {
+    #modal {
+        width: 95%; /* Ancho del modal en móviles */
+        padding: 15px; /* Espaciado interno en móviles */
+    }
+    #modal p {
+        font-size: 1em; /* Disminuir tamaño de texto en móviles */
+    }
+    #modal button {
+        padding: 8px 15px; /* Ajustar padding en móviles */
+        font-size: 0.9em; /* Disminuir tamaño de fuente en móviles */
+    }
+}
+
+.p-modal {
+    font-size: 12px !important; /* Usa !important para forzar el estilo */
+    color: #435a7a; 
+    margin: 10px 0; 
+    text-align: center; 
+    font-family: 'Poppins', sans-serif; 
+}
+
