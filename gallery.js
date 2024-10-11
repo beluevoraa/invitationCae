@@ -9,8 +9,8 @@ const images = [
     'img/7.jpeg',
     'img/8.jpeg',
     'img/9.jpeg',
-    'img/10.jpeg',
-    'img/11.jpeg',
+    'img/12.png',
+    'img/13.JPG',
     'img/15.JPG',
 ];
 
