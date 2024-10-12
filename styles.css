@@ -8,6 +8,25 @@
     --brownie: #caaf92;
     --background: #fffbef;
 }
+@font-face {
+    font-family: 'Bimbo Trial';
+    src: url('/fonts/Bimbo Trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bimbo Finetip';
+    src: url('/fonts/Bimbo Finetip Trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bimbo Ballpoint';
+    src: url('/fonts/Bimbo Ballpoint Trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Market Deco';
+    src: url('/fonts/Market_Deco.ttf') format('truetype');
+}
 
 * {
     margin: 0;
@@ -52,6 +71,15 @@ body, html {
     background-repeat: no-repeat;
 }
 
+#section2 h1 {
+    font-family: 'Bimbo trial';
+}
+
+#section2 h2, 
+#section2 p{
+    font-family: 'Market deco';
+
+}
 
 .banner-image {
     width: 100%;
@@ -62,6 +90,19 @@ body, html {
     align-items: center;
     margin: 0;
     padding: 0;
+} 
+
+.banner h1{
+    font-family: 'bimbo trial';
+    width: 100%;
+    max-width: 1920px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: var(--olive);
 }
 
 #section-location h1 {
@@ -144,7 +185,7 @@ body, html {
     border-radius: 4px;
     color: white;
     text-transform: uppercase;
-    font-family: Poppins, sans-serif;
+    font-family: 'market deco', sans-serif;
     margin-top: 20px;
     text-align: center;
     text-decoration: none;
@@ -321,7 +362,7 @@ body, html {
     color: white; /* Color del texto */
     border-radius: 5px; /* Bordes redondeados */
     text-decoration: none; /* Sin subrayado */
-    font-family: 'Poppins', sans-serif; /* Fuente */
+    font-family: 'Market deco', sans-serif; /* Fuente */
     font-size: 1.2rem; /* Tamaño de fuente */
     margin-top: 20px; /* Espacio arriba */
     transition: background-color 0.3s; /* Transición suave para hover */
