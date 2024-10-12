@@ -10,23 +10,24 @@
 }
 @font-face {
     font-family: 'Bimbo Trial';
-    src: url('../fonts/Bimbo Trial.ttf') format('truetype');
+    src: url('/invitationCae/fonts/Bimbo Trial.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Bimbo Finetip';
-    src: url('/fonts/Bimbo Finetip Trial.ttf') format('truetype');
+    src: url('/invitationCae/fonts/Bimbo Finetip Trial.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Bimbo Ballpoint';
-    src: url('/fonts/Bimbo Ballpoint Trial.ttf') format('truetype');
+    src: url('/invitationCae/fonts/Bimbo Ballpoint Trial.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Market Deco';
-    src: url('/fonts/Market_Deco.ttf') format('truetype');
+    src: url('/invitationCae/fonts/Market_Deco.ttf') format('truetype');
 }
+
 
 * {
     margin: 0;
