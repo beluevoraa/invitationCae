@@ -10,7 +10,7 @@
 }
 @font-face {
     font-family: 'Bimbo Trial';
-    src: url('/fonts/Bimbo Trial.ttf') format('truetype');
+    src: url('../fonts/Bimbo Trial.ttf') format('truetype');
 }
 
 @font-face {
