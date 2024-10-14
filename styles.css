@@ -10,22 +10,12 @@
 }
 @font-face {
     font-family: 'Bimbo Trial';
-    src: url('/invitationCae/fonts/Bimbo Trial.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Bimbo Finetip';
-    src: url('/invitationCae/fonts/Bimbo Finetip Trial.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Bimbo Ballpoint';
-    src: url('/invitationCae/fonts/Bimbo Ballpoint Trial.ttf') format('truetype');
+    src: url('https://raw.githubusercontent.com/beluevoraa/invitationCae/main/fonts/Bimbo%20Trial.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Market Deco';
-    src: url('/invitationCae/fonts/Market_Deco.ttf') format('truetype');
+    src: url('https://raw.githubusercontent.com/beluevoraa/invitationCae/main/fonts/Market_Deco.ttf') format('truetype');
 }
 
 
